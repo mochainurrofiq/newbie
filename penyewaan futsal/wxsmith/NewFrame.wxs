@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="NewFrame">
+		<centered>1</centered>
+		<pos>-1,-1</pos>
+		<size>318,341</size>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxButton" name="ID_BUTTON1" variable="tblbayar" member="yes">
+			<label>Bayar</label>
+			<pos>80,192</pos>
+			<size>62,24</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="fwaktu" member="yes">
+			<pos>136,104</pos>
+			<size>64,21</size>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>WAKTU MAIN</label>
+			<pos>64,104</pos>
+			<size>72,24</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="tblbatal" member="yes">
+			<label>Batal</label>
+			<pos>200,192</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>BOOKING LAPANGAN</label>
+			<pos>24,8</pos>
+			<size>143,32</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Algerian</face>
+			</font>
+			<style>wxALIGN_CENTRE|wxDOUBLE_BORDER</style>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Jam</label>
+			<pos>208,104</pos>
+			<size>19,16</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Grand Total</label>
+			<pos>72,144</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="ftotal" member="yes">
+			<pos>136,144</pos>
+			<size>104,21</size>
+		</object>
+	</object>
+</wxsmith>
